@@ -8,7 +8,7 @@ We will try to explain how the different organ systems work and what their funct
 
 ### WIREFRAME
 **Homepage Wireframe:** <br> <br>
-<img src="website/images/wireframe_index.jpg" alt="wip wireframe_index" title="">
+<img src="images/wireframe_index.jpg" alt="wip wireframe_index" title="">
 
 **Content/Information Pages Wireframe:** <br> <br>
-<img src="website/images/wireframe_content.jpg" alt="wip wireframe_content" title="">
+<img src="images/wireframe_content.jpg" alt="wip wireframe_content" title="">
