@@ -2,11 +2,31 @@ html, body{
   height: 100%
   width: 100%
 }
+
 p {
-  background-color: pink
+  background-color: blanchedalmond
 }
 #header {
   text-decoration: none
   background-color: grey
   padding: 10px
 }
+
+body {
+  background-color: beige;
+  padding: 10px;
+}
+
+h3 {
+  background-color: pink;
+}
+
+div {
+  background-color: #CCCC99;
+  border: 2px solid black;
+}
+
+img.organ {
+  float: right;
+}
+
