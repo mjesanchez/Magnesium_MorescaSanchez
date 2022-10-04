@@ -17,13 +17,16 @@
 
 <body>
   <span id="header">
-    <table border="5px solid black" style="border-spacing: 10px;">
-      <td class="headcell"><a href="index.html"><img src="images/logo_header" alt="home"></a></td>
-      <td class="headcell"><a href="htdocs/page1.html">digestive</a></td>
-      <td class="headcell"><a href="htdocs/page2.html">respiratory</a></td>
-      <td class="headcell"><a href="htdocs/page3.html">circulatory</a></td>
-      <td class="headcell"><a href="htdocs/page4.html">nervous</a></td>
-      <td class="headcell"><a href="htdocs/page5.html">urinary</a></td>
+    <!-->don't have to put class head cell on every element of the header
+    just use .headcell > td if you want to refer to the stuff
+    </!-->
+    <table class="headcell" border="5px solid black" style="border-spacing: 10px;">
+      <td><a href="index.html"><img src="images/logo_header" alt="home"></a></td>
+      <td><a href="htdocs/page1.html">respiratory</a></td>
+      <td><a href="htdocs/page2.html">digestive</a></td>
+      <td><a href="htdocs/page3.html">circulatory</a></td>
+      <td><a href="htdocs/page4.html">nervous</a></td>
+      <td><a href="htdocs/page5.html">urinary</a></td>
     </table>
   </span>
   
