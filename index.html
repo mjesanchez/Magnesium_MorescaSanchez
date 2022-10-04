@@ -8,26 +8,34 @@
   <meta name="author" content="Matthew Sanchez"
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="mainlogo.ico" rel="icon" type="image/ico" />
+  <style>
+    td.headcell {
+      border-style: none;
+    }
+  </style>
 </head>
 
 <body>
   <span id="header">
-    <a href="index.html"><img src="images/logo_header" alt="home"></a>
-    <a href="htdocs/page1.html">respiratory</a>
-    <a href="htdocs/page2.html">digestive</a>
-    <a href="htdocs/page3.html">circulatory</a>
-    <a href="htdocs/page4.html">nervous</a>
-    <a href="htdocs/page5.html">urinary</a>
+    <table border="5px solid black" style="border-spacing: 10px;">
+      <td class="headcell"><a href="index.html"><img src="images/logo_header" alt="home"></a></td>
+      <td class="headcell"><a href="htdocs/page1.html">respiratory</a></td>
+      <td class="headcell"><a href="htdocs/page2.html">digestive</a></td>
+      <td class="headcell"><a href="htdocs/page3.html">circulatory</a></td>
+      <td class="headcell"><a href="htdocs/page4.html">nervous</a></td>
+      <td class="headcell"><a href="htdocs/page5.html">urinary</a></td>
+    </table>
+    
   </span>
-
   
-  <h1>The Anatomy of the Human Body</h1>
+  <h1>Human Insides</h1>
   <p>This website will contain information about the different organ systems inside of humans. Click any image for more information.</p>
   <br>
 
-  <a href="htdocs/page1.html"> <img src="images/digestive.jpg" height="100px" width="100px" alt="digestive" title="digestive"> </a>
-  <a href="htdocs/page2.html"> <img src="images/respiratory.jpg" height="100px" width="100px" alt="respiratory" title="respiratory"> </a>
-
+  <div>
+    <a href="htdocs/page1.html"> <img src="images/digestive.jpg" height="100px" width="100px" alt="digestive" title="digestive"> </a>
+    <a href="htdocs/page2.html"> <img src="images/respiratory.jpg" height="100px" width="100px" alt="respiratory" title="respiratory"> </a>
+  </div>
 </body>
 
 </html>
