@@ -18,7 +18,7 @@ p {
 }
 
 body {
-  background-color: beige;
+  background-color: #ffc09e;
   padding: 10px;
 }
 
@@ -33,5 +33,7 @@ div {
 
 img.organ {
   float: right;
+  height: 100px;
+  width: 100px;
 }
 
