@@ -1,3 +1,4 @@
+/* universal rules */
 html, body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -5,9 +6,18 @@ html, body {
   width: 100%;
 }
 *{
+  margin: 0;
   box-sizing: border-box;
 }
-/* header section */
+#body{
+  width:70%;
+  margin: auto;
+}
+img {
+  display:block;
+}
+
+/* header */
 #header{
   overflow: hidden;
   background-color: #f1f1f1;
@@ -19,46 +29,43 @@ html, body {
   color:black;
   text-decoration: none;
 }
-.sec_headers{
-  float:left;
-  color:white;
-  background-color:grey;
-  width:100%;
-  padding-left:15px;
-}
 /* -------------------------- */
 
-img {
-  display:block;
+.sec_headers{
+  position: relative;
+  padding: 15px;
+  color:white;
+  background-color:grey;
 }
+
 #main_image{
   width:50%;
   margin:auto;
 }
 
-
+/* intro part/the first part */
 .intro{
-  /* background color temp */
-  background-color:orange;
-  width:50%;
-  padding:0px;
-  float:left;
-  overflow: hidden;
-  border: 2px solid black;
+  border: 1px solid black;
+  border-collapse:collapse;
 }
-.intro > p{
-  position: relative;
-  bottom: 20px;
-  border-spacing: 10px;
-  border-bottom: 2px solid black;
-  font-size: 200%;
-  font-weight: 700;
+.intro td, .intro th {
+  width: 50%;
   text-align: center;
-  padding: 0px;
-  /* background color temp */
-  background-color: pink;
+  padding: 10px;
+  border: 1px solid black;
 }
-.intro_text{
-  text-align:center;
+/* ---------------------- */
+/* 2nd part/ organs part */
+.organ{
+  width: 80%;
+  padding: 20px;
+  overflow: hidden;
+  margin: 10px auto;
+  text-align: center;
+}
+.organ img{
+  float:left;
+  background-color:yellow;
   padding:20px;
+  margin: 10px;
 }
