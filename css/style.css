@@ -37,3 +37,9 @@ img.organ {
   width: 100px;
 }
 
+table.headcell {
+  position: fixed;
+  border-spacing: 10px;
+  background-color: lightgray;
+  width: 100%;
+}
