@@ -33,7 +33,35 @@ img {
   height: 70%;
 }
 /* -------------------------- */
+body h1,p{
+  text-align: center;
+  margin: 20px;
+}
+nav{
+  background-color: #ffb89e; 
+  border: 5px solid black; 
+  margin: 20px auto; 
+  height: 30vh; 
+  width: 50%;
+}
+nav h2{
+  margin: 10px;
+  text-align: center;
+}
+nav a{
+  float: left;
+  display: block;
+  text-decoration: none;
+  color: red;
+  position: relative;
+  left: 15%;
+}
 
+iframe{
+  margin: 50px auto;
+  display: block;
+}
+/*
 p {
   background-color: blanchedalmond
 }
@@ -57,4 +85,10 @@ img.organ {
   height: 93px;
   width: 100px;
 }
-
+*/
+footer{
+  padding: 10px;
+  background-color: maroon;
+  color: silver;
+  bottom: 0;
+}

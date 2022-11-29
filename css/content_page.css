@@ -10,7 +10,7 @@ html, body {
   margin: 0;
   box-sizing: border-box;
 }
-#body{
+main{
   width:70%;
   margin: auto;
 }
@@ -82,8 +82,14 @@ img {
   border: 2px dashed lightcoral;
   display: block;
 }
-
 .organ_description {
   font-size: 1.2em;
   margin: 8px;
+}
+
+footer{
+  padding: 10px;
+  background-color: maroon;
+  color: silver;
+  bottom: 0;
 }
