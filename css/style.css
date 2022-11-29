@@ -1,21 +1,41 @@
+/* universal rules */
 html, body {
+  background-color: #c53a3e;
+  margin: 0;
   height: 100%;
   width: 100%;
+}
+*{
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
   margin: 0;
+  box-sizing: border-box;
+}
+img {
+  display:block;
 }
 
-* {
-  box-sizing: border-box;  /* inclusion of box-sizing */
+/* header */
+#header{
+  overflow: hidden;
+  background-color: maroon;
+  /*border: 5px outset maroon;*/
 }
-
+#header a {
+  float: left;
+  padding: 15px;
+  color: teal;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+#header > a{
+  margin-right: 15px;
+  height: 70%;
+}
+/* -------------------------- */
 
 p {
   background-color: blanchedalmond
-}
-#header {
-  text-decoration: none;
-  background-color: grey;
-  padding: 10px;
 }
 
 body {
@@ -30,18 +50,11 @@ h3 {
 div {
   background-color: #CCCC99;
   border: 2px solid black;
-}
+} 
 
 img.organ {
   float: right;
   height: 93px;
   width: 100px;
-}
-
-table.headcell {
-  position: fixed;
-  border-spacing: 10px;
-  background-color: lightgray;
-  width: 100%;
 }
 
