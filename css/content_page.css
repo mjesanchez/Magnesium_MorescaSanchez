@@ -62,7 +62,7 @@ img {
   text-align: center;
   padding: 10px;
   border: 2px solid gold;
-  background-color: red;
+  background-color: darkred;
   font-size: 1.2em;
 }
 /* ---------------------- */
@@ -74,7 +74,7 @@ img {
   margin: 10px auto;
   text-align: center;
   border: 2px solid gold;
-  background-color: red;
+  background-color: darkred;
 }
 .organ img{
   float:left;
