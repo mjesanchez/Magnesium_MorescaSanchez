@@ -6,17 +6,18 @@
   <meta charset="utf-8">
   <meta name="author" content="Gabriel Moresca, Matthew Sanchez">
   <meta name="keywords" content="PSHS, project, website, biology, body, HTML, CSS" />
-  <meta name="revised" content="12/02/2022" />
+  <meta name="revised" content="12/21/2022" />
   <meta name="viewport" content="width=device-width">
   
   <link href="../css/content_page.css" rel="stylesheet" type="text/css" />
 
-  <link href="../images/icons/icon.jpg" rel="icon" type="image/jpg" />
+  <link href="../images/icon.jpg" rel="icon" type="image/jpg" />
 </head>
 
 <body>
+<!-- note: this template follows the wireframe in the github -->
 <!-- header -->
-<div id="header">
+<header id="header">
   <a href="../index.html"><img class="headicon" src="../images/icons/icon.jpg" height="30px" width="30px"></a>
   <div>
     <a href="page1.html">Digestive</a>
@@ -25,24 +26,35 @@
     <a href="page4.html">Nervous</a>
     <a href="page5.html">Urinary</a>
   </div>
-</div>
+</header>
 
 <main>
 <!-- title for the intro -->
 <p class="sec_headers">Nervous System</p>
-<div>
-  <img id="main_image" src="../images/nervous/nervous_overview.jpg" alt="nervous_overview" height="500px">
-</div>
+  
+<nav>
+  <p>Parts</p>
+  <ul>
+    <li><a href="#brain">Brain</a></li>
+    <li><a href="#spinal_cord">Spinal Cord</a></li>
+    <li><a href="#sns">SNS</a></li>
+    <li><a href="#sans">ANS</a></li>
+  </ul>
+</nav>
+  
+<figure>
+  <img id="main_image" src="../images/nervous/nervousoverview.jpg" alt="nervous_overview" height="500px">
+</figure>
   
 <!-- actual text for the intro -->
-<table class="intro">
+<table>
   <tr>
     <th>What is it?</th>
     <th>What is its purpose?</th>
   </tr>
   <tr>
-    <td>lorem ipsum integer venenantis contis placerat integer venenantis contis placeratinteger venenantis contis placeratin teger vene nantis contis very important because ultra ultra ultra </td>
-    <td> The respiratory system is responsible for breathing and exchanging gas ainteger venenantis contis placerat integer venenantis contis placeratinteger venenantis contis placeratin teger vene nantis contis placera the ultimate survival needed</td>
+    <td>The nervous system is a giant interlocking system of nerves that control the human body. It sends and receives electrical signals from the body to allow it to move, and the nerves are the path to which these electrical signals travel on. It is composed of 2 main parts, the Central Nervous System (CNS), encompasses the brain and the spinal cord, and the Peripheral Nervous System (PNS), which encompasses the Somatic Nervous System (SNS) and the Automatic Nervous System (ANS).</td>
+    <td>The nervous system is probably the most important organ system in our body. It is basically the command or overseer of the human body. The nervous system is responsible for allowing us to move, think, and interact with the world, all through the power of nerves, hence the name. It controls every part of the body, and is probably the one allowing us to think and feel.</td>
   </tr>
 </table>
  
@@ -52,50 +64,58 @@
 
 <!-- Organ 1 -->
   <!-- box for the img + text -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%" alt="nervous_organ1">
+<section class="organ" id="brain">
+  <img src="../images/nervous/brain.jpg" width="30%" height="30%" alt="brain">
     <!-- box for the header or title + description -->
   <div class="organ_body">
-    <h2>Organ 1</h2>
+    <h2>The Brain</h2>
       <!-- box for the description -->
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Part of the Central Nervous System (CNS) | An organ that </p>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Organ 2 -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%" alt="nervous_organ2">
+<section class="organ" id="spinal_cord">
+  <img src="../images/nervous/spinal_cord.jpg" width="30%" height="30%" alt="spinal_cord">
   <div class="organ_body">
-    <h2>Organ 2</h2>
+    <h2>Spinal Cord</h2>
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Part of the Central Nervous System (CNS) | Cras hendrerit quis ligula ut sodales. Vestibulum a velit faucibus, lacinia augue eget, varius nulla. Etiam sed risus risus. Fusce gravida, odio luctus consequat sodales, elit metus finibus nisi, vel egestas ligula ligula eget dui. Donec et erat ligula. Suspendisse sit amet est et dui lacinia pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Organ 3 -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%"  alt="nervous_organ3">
+<section class="organ" id="SNS">
+  <img src="../images/nervous/sns.jpg" width="30%" height="30%"  alt="SNS">
   <div class="organ_body">
-    <h2>Organ 3</h2>
+    <h2>Somatic Nervous System (SNS)</h2>
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Part of the Peripheral Nervous System (PNS) | Sed viverra et leo eu consequat. Duis id urna vitae risus vulputate tincidunt in vel urna. Aliquam vitae ligula ut massa porta sollicitudin et eget mauris. Ut in blandit nulla. Donec fringilla vestibulum urna, vel iaculis sapien ornare et. Vestibulum varius mattis iaculis. Vivamus risus ipsum, laoreet in aliquet nec, sollicitudin elementum ipsum. Ut a dolor sagittis, fermentum purus in, cursus quam. Fusce euismod maximus mauris quis commodo. Maecenas accumsan nibh et elit tincidunt, nec sodales enim eleifend. Donec pretium magna vel nisi dapibus, gravida tempor erat feugiat. Integer ut est vitae elit dictum consequat et quis mi. Quisque in bibendum eros, quis dapibus erat. Quisque non magna rhoncus, suscipit mi sit amet, tincidunt odio. Nullam sodales, tortor id ullamcorper vestibulum, mauris nisi elementum massa, et ultricies lacus nisi a mi. </p>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Organ 4 -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%"  alt="nervous_organ4">
+<section class="organ" id="ANS">
+  <img src="../images/nervous/ans.jpg" width="30%" height="30%"  alt="ANS">
   <div class="organ_body">
-    <h2>Organ 4</h2>
+    <h2>Automatic Nervous System (ANS)</h2>
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Part of the Peripheral Nervous System (PNS) | Donec aliquam augue nisi, nec elementum nunc condimentum ac. Proin vestibulum, urna vel egestas posuere, lacus lacus vulputate libero, et posuere nunc mauris sit amet nibh. Pellentesque elit dui, mattis nec hendrerit sit amet, facilisis ut dolor. Vestibulum lacinia leo felis, sed semper tellus tristique ut. Vestibulum sit amet aliquam nisi, at condimentum elit. Quisque sollicitudin tellus id dapibus semper. Duis vitae dictum justo, eu ultricies arcu. In sed dictum enim. Suspendisse pellentesque lectus vel molestie rhoncus. Morbi mattis ex molestie nisi condimentum, vitae efficitur quam feugiat. Fusce nisl mi, auctor in aliquam in, lacinia et justo. </p>
     </div>
   </div>
-</div>
+</section>
+
+<section id="references">
+  <br>
+  <h1>References:</h1>
+    <p>- Paharia, P. T. P. (n.d.). What is the Nervous System? News Medical. https://www.news-medical.net/health/What-is-the-Nervous-System.aspx</p>
+  <br>
+</section>
+  
 </main>
 
 <footer>

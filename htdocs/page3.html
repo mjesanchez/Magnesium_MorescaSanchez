@@ -6,17 +6,18 @@
   <meta charset="utf-8">
   <meta name="author" content="Gabriel Moresca, Matthew Sanchez">
   <meta name="keywords" content="PSHS, project, website, biology, body, HTML, CSS" />
-  <meta name="revised" content="12/02/2022" />
+  <meta name="revised" content="12/21/2022" />
   <meta name="viewport" content="width=device-width">
   
   <link href="../css/content_page.css" rel="stylesheet" type="text/css" />
 
-  <link href="../images/icons/icon.jpg" rel="icon" type="image/jpg" />
+  <link href="../images/icon.jpg" rel="icon" type="image/jpg" />
 </head>
 
 <body>
+<!-- note: this template follows the wireframe in the github -->
 <!-- header -->
-<div id="header">
+<header id="header">
   <a href="../index.html"><img class="headicon" src="../images/icons/icon.jpg" height="30px" width="30px"></a>
   <div>
     <a href="page1.html">Digestive</a>
@@ -25,24 +26,36 @@
     <a href="page4.html">Nervous</a>
     <a href="page5.html">Urinary</a>
   </div>
-</div>
+</header>
 
 <main>
 <!-- title for the intro -->
 <p class="sec_headers">Circulatory System</p>
-<div>
-  <img id="main_image" src="../images/circulatory/circulatory_overview.jpg" alt="circulatory_overview" height="500px">
-</div>
+  
+<nav>
+  <p>Parts</p>
+  <ul>
+    <li><a href="#heart">Heart</a></li>
+    <li><a href="#blood">Blood</a></li>
+    <li><a href="#arteries">Arteries</a></li>
+    <li><a href="#veins">Veins</a></li>
+    <li><a href="#capillaries">Capillaries</a></li>
+  </ul>
+</nav>
+  
+<figure>
+  <img id="main_image" src="../images/circulatory/circulatoryoverview.jpg" alt="circulatory_overview" height="500px">
+</figure>
   
 <!-- actual text for the intro -->
-<table class="intro">
+<table>
   <tr>
     <th>What is it?</th>
     <th>What is its purpose?</th>
   </tr>
   <tr>
-    <td>lorem ipsum integer venenantis contis placerat integer venenantis contis placeratinteger venenantis contis placeratin teger vene nantis contis very important because ultra ultra ultra </td>
-    <td> The respiratory system is responsible for breathing and exchanging gas ainteger venenantis contis placerat integer venenantis contis placeratinteger venenantis contis placeratin teger vene nantis contis placera the ultimate survival needed</td>
+    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices condimentum rhoncus. Etiam non fringilla massa, nec rutrum libero. Nullam imperdiet rhoncus magna, vitae elementum enim tempor sed. Cras sapien sem, ornare nec laoreet sed, vehicula at lectus. Nullam facilisis turpis non dolor ornare, commodo dapibus ex dictum. Aliquam ac velit vel magna viverra gravida. Curabitur lorem sem, semper eu nisl vitae, ultricies rhoncus nulla. Sed dignissim consectetur purus a porttitor. Mauris sit amet lacinia mauris, sed porta sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. </td>
+    <td>Vestibulum blandit, massa id commodo feugiat, tellus ligula efficitur eros, vitae pulvinar nibh mi non eros. Proin non finibus lectus, ut ornare velit. Nullam rutrum eleifend urna sit amet aliquam. Donec quis accumsan odio. Phasellus nunc velit, tristique convallis purus commodo, cursus accumsan diam. Aenean mauris nisl, pulvinar a orci in, viverra sodales dolor. Proin tempor pulvinar turpis, id semper lorem. Suspendisse ac lacus eget dui vestibulum finibus vel eget arcu. </td>
   </tr>
 </table>
  
@@ -52,50 +65,69 @@
 
 <!-- Organ 1 -->
   <!-- box for the img + text -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%" alt="circulatory_organ1">
+<section class="organ" id="heart">
+  <img src="../images/circulatory/mouth.jpg" width="30%" height="30%" alt="heart">
     <!-- box for the header or title + description -->
   <div class="organ_body">
-    <h2>Organ 1</h2>
+    <h2>Heart</h2>
       <!-- box for the description -->
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Nulla non neque sed nibh aliquet consectetur venenatis sit amet lorem. Nullam sed vulputate ligula, eu consectetur libero. Donec sit amet justo justo. Etiam est velit, placerat a vulputate a, ultricies non risus. Duis rutrum eleifend arcu sed pellentesque. Quisque malesuada venenatis mauris ac tincidunt. Praesent sem felis, euismod sed dolor et, interdum pulvinar erat. Donec iaculis diam in egestas porta. Sed id dapibus sapien. Phasellus consequat ante eget lectus commodo, ut varius ligula luctus. Quisque non sagittis est. </p>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Organ 2 -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%" alt="circulatory_organ2">
+<section class="organ" id="blood">
+  <img src="../images/circulatory/blood.jpg" width="30%" height="30%" alt="blood">
   <div class="organ_body">
-    <h2>Organ 2</h2>
+    <h2>The Blood</h2>
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Cras hendrerit quis ligula ut sodales. Vestibulum a velit faucibus, lacinia augue eget, varius nulla. Etiam sed risus risus. Fusce gravida, odio luctus consequat sodales, elit metus finibus nisi, vel egestas ligula ligula eget dui. Donec et erat ligula. Suspendisse sit amet est et dui lacinia pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Organ 3 -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%"  alt="circulatory_organ3">
+<section class="organ" id="arteries">
+  <img src="../images/circulatory/arteries.jpg" width="30%" height="30%"  alt="arteries">
   <div class="organ_body">
-    <h2>Organ 3</h2>
+    <h2>The Arteries</h2>
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Sed viverra et leo eu consequat. Duis id urna vitae risus vulputate tincidunt in vel urna. Aliquam vitae ligula ut massa porta sollicitudin et eget mauris. Ut in blandit nulla. Donec fringilla vestibulum urna, vel iaculis sapien ornare et. Vestibulum varius mattis iaculis. Vivamus risus ipsum, laoreet in aliquet nec, sollicitudin elementum ipsum. Ut a dolor sagittis, fermentum purus in, cursus quam. Fusce euismod maximus mauris quis commodo. Maecenas accumsan nibh et elit tincidunt, nec sodales enim eleifend. Donec pretium magna vel nisi dapibus, gravida tempor erat feugiat. Integer ut est vitae elit dictum consequat et quis mi. Quisque in bibendum eros, quis dapibus erat. Quisque non magna rhoncus, suscipit mi sit amet, tincidunt odio. Nullam sodales, tortor id ullamcorper vestibulum, mauris nisi elementum massa, et ultricies lacus nisi a mi. </p>
     </div>
   </div>
-</div>
+</section>
 
 <!-- Organ 4 -->
-<div class="organ">
-  <img src="../images/placeholder-square.jpg" width="30%" height="30%"  alt="circulatory_organ4">
+<section class="organ" id="veins">
+  <img src="../images/circulatory/veins.jpg" width="30%" height="30%"  alt="veins">
   <div class="organ_body">
-    <h2>Organ 4</h2>
+    <h2>The Veins</h2>
     <div class="organ_description">
-      <p>integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum, integer venenantis contis placerat lorem ipsum dolor ist amet, cometsum del alet ad avocsum, nisl excl bicerdnum</p>
+      <p>Donec aliquam augue nisi, nec elementum nunc condimentum ac. Proin vestibulum, urna vel egestas posuere, lacus lacus vulputate libero, et posuere nunc mauris sit amet nibh. Pellentesque elit dui, mattis nec hendrerit sit amet, facilisis ut dolor. Vestibulum lacinia leo felis, sed semper tellus tristique ut. Vestibulum sit amet aliquam nisi, at condimentum elit. Quisque sollicitudin tellus id dapibus semper. Duis vitae dictum justo, eu ultricies arcu. In sed dictum enim. Suspendisse pellentesque lectus vel molestie rhoncus. Morbi mattis ex molestie nisi condimentum, vitae efficitur quam feugiat. Fusce nisl mi, auctor in aliquam in, lacinia et justo. </p>
     </div>
   </div>
-</div>
+</section>
+
+<!-- Organ 5 -->
+<section class="organ" id="capillaries">
+  <img src="../images/circulatory/capillaries.jpg" width="30%" height="30%"  alt="capillaries">
+  <div class="organ_body">
+    <h2>The Capillaries</h2>
+    <div class="organ_description">
+      <p>Cras sodales scelerisque rhoncus. Etiam et elit eget sem cursus venenatis id nec massa. Proin sapien sapien, consequat id dolor a, tempor elementum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque mollis lorem non ultrices accumsan. Mauris molestie erat dolor, sed eleifend nisl rhoncus quis. Nunc egestas leo nibh, eget ultricies dolor aliquet vel. Morbi magna mauris, accumsan in feugiat pharetra, euismod at diam. </p>
+    </div>
+  </div>
+</section>
+  
+<section id="references">
+  <br>
+  <h1>References:</h1>
+    <p>- DRAFT</p>
+  <br>
+</section>
+  
 </main>
 
 <footer>

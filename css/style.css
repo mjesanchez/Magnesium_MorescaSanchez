@@ -15,12 +15,12 @@ img {
 }
 
 /* header */
-#header{
+header{
   overflow: hidden;
   background-color: maroon;
   /*border: 5px outset maroon;*/
 }
-#header a {
+header a {
   float: left;
   padding: 15px;
   color: teal;
@@ -28,18 +28,22 @@ img {
   font-size: 1.5em;
   display: block;
 }
-#header a:hover{
+header a:hover{
   background-color: #1d579e;
   color: white;
 }
-#header > a{
+header > a{
   margin-right: 15px;
-  height: 70%;
 }
+
 /* -------------------------- */
 body > h1,p{
   text-align: center;
   margin: 20px;
+}
+body > p{
+  width: 70%;
+  margin: auto;
 }
 nav{
   background-color: #ffb89e; 
@@ -54,18 +58,29 @@ nav h2{
   text-align: center;
 }
 nav a{
+  border: 1px solid black; 
   float: left;
   display: block;
   text-decoration: none;
   color: red;
   position: relative;
-  left: 10%;
+  left: 16%;
 }
 
-iframe{
+article{
   margin: 50px auto;
+  width: 560px;
+}
+iframe{
   display: block;
 }
+article p{
+  font-size: 0.8em;
+  color: cyan;
+  margin: 0;
+}
+
+/* ----------- footer ---------- */
 footer{
   font-size: 0.75em;
   padding: 10px;
