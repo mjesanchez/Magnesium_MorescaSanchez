@@ -23,7 +23,7 @@ header{
 header a {
   float: left;
   padding: 15px;
-  color: teal;
+  color: #00c6c6;
   text-decoration: none;
   font-size: 1.5em;
   display: block;
@@ -35,16 +35,25 @@ header a:hover{
 header > a{
   margin-right: 15px;
 }
-
 /* -------------------------- */
-body > h1,p{
+
+/* title/description/intro to website */
+body > h1{
+  margin: 20px auto;
   text-align: center;
-  margin: 20px;
+  font-size: 3.5em;
+  color: black;
+  display: block;
+  width: fit-content;
+  padding: 3px;
 }
 body > p{
+  text-align: center;
   width: 70%;
   margin: auto;
 }
+
+/*navigation*/
 nav{
   background-color: #ffb89e; 
   border: 5px solid black; 
@@ -66,7 +75,64 @@ nav a{
   position: relative;
   left: 16%;
 }
+figure{
+  margin: auto;
+  width: fit-content;
+}
+figure a{
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 2px;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  font-size: 1.2em;
+  border: 5px outset black;
+  background-color: maroon;
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+figure div{
+  width: 600px;
+  height: 600px;
+  border: 5px outset black;
+  background-image: url("/images/placeholder-square.jpg");
+  clear: left;
+}
+figure a:hover{
+  background-color: #1d579e;
+  transform: scaleY(1.2);
+  transform-origin: bottom;
+  transition-duration: 0.5s;
+  transition-property: all;
+}
+figure a:hover ~ div{
+  animation: shake 0.2s ease-out 0s 5 normal;
+}
+@keyframes shake{
+  0% {transform: translateX(-2px)}
+  50% {transform: translateX(2px)}
+  100% {}
+}
+  
+figure #digestive:hover ~ div{
+  background-image: url("/images/organ_systems/digestive.jpg");
+}
+figure #respiratory:hover ~ div{
+  background-image: url("/images/organ_systems/respiratory.jpg");
+}
+figure #circulatory:hover ~ div{
+  background-image: url("/images/organ_systems/circulatory.jpg");
+}
+figure #nervous:hover ~ div{
+  background-image: url("/images/organ_systems/nervous.jpg");
+}
+figure #urinary:hover ~ div{
+  background-image: url("/images/organ_systems/urinary.jpg");
+}
 
+/* youtube video */
 article{
   margin: 50px auto;
   width: 560px;
@@ -76,8 +142,9 @@ iframe{
 }
 article p{
   font-size: 0.8em;
-  color: cyan;
+  color: black;
   margin: 0;
+  text-align: center;
 }
 
 /* ----------- footer ---------- */
@@ -104,4 +171,8 @@ footer a{
 footer a:hover{
   background-color: #1d579e;
   color: white;
+}
+
+#dgv:hover {
+  opacity: ;
 }

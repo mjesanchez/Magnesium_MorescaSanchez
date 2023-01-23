@@ -27,7 +27,7 @@ header{
 header a {
   float: left;
   padding: 15px;
-  color: teal;
+  color: #00c6c6;
   text-decoration: none;
   font-size: 1.5em;
   display: block;
@@ -51,15 +51,12 @@ header > a{
   border-radius: 15px;
 }
 
-figure{
-  width: 50%;
+#main_image{
+  width: 40%;
+  height: fit-content;
   margin: 10px auto;
   border: 5px solid #2c177d;
   border-radius: 15px;
-}
-figure img{
-  width: 100%;
-  border-radius: 10px;
 }
 nav{
   background-color: white;
@@ -72,7 +69,7 @@ nav{
 
 /* intro part/the first part */
 table{
-  border-collapse:collapse;
+  border-collapse: collapse;
   margin-bottom: 10px;
 }
 table td, table th {
@@ -83,13 +80,21 @@ table td, table th {
   background-color: darkred;
   font-size: 1.2em;
 }
+table th{
+  color: gold;
+  text-decoration: underline gold;
+}
+table td{
+  color: whitesmoke;
+  text-shadow: 2px 1px black;
+}
 /* ---------------------- */
 /* 2nd part/ organs part */
 .organ{
   width: 80%;
   padding: 20px;
   overflow: hidden;
-  margin: 10px auto;
+  margin: 2ch auto;
   text-align: center;
   border: 2px solid gold;
   background-color: darkred;
@@ -101,9 +106,15 @@ table td, table th {
   border: 2px dashed lightcoral;
   display: block;
 }
+.organ_body h2{
+  color: gold;
+  text-decoration: underline gold;
+}
 .organ_description {
   font-size: 1.2em;
   margin: 8px;
+  color: whitesmoke;
+  text-shadow: 2px 1px black;
 }
 
 

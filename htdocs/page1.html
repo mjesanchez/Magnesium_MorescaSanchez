@@ -8,132 +8,150 @@
   <meta name="keywords" content="PSHS, project, website, biology, body, HTML, CSS" />
   <meta name="revised" content="12/21/2022" />
   <meta name="viewport" content="width=device-width">
-  
+
   <link href="../css/content_page.css" rel="stylesheet" type="text/css" />
 
   <link href="../images/icons/icon.jpg" rel="icon" type="image/jpg" />
 </head>
 
 <body>
-<!-- note: this template follows the wireframe in the github -->
-<!-- header -->
-<header id="header">
-  <a href="../index.html"><img class="headicon" src="../images/icons/icon.jpg" height="30px" width="30px"></a>
-  <div>
-    <a href="page1.html">Digestive</a>
-    <a href="page2.html">Respiratory</a>
-    <a href="page3.html">Circulatory</a>
-    <a href="page4.html">Nervous</a>
-    <a href="page5.html">Urinary</a>
-  </div>
-</header>
-
-<main>
-<!-- title for the intro -->
-<p class="sec_headers">Digestive System</p>
-  
-<nav>
-  <p>Organs</p>
-  <ul>
-    <li><a href="#mouth">Mouth</a></li>
-    <li><a href="#esophagus">Esophagus</a></li>
-    <li><a href="#stomach">Stomach</a></li>
-    <li><a href="#s_intestine">Small Intestine</a></li>
-    <li><a href="#l_intestine">Large Intestine</a></li>
-  </ul>
-</nav>
-  
-<figure>
-  <img id="main_image" src="../images/digestive/digestiveoverview.jpg" alt="digestive_overview" height="500px">
-</figure>
-  
-<!-- actual text for the intro -->
-<table>
-  <tr>
-    <th>What is it?</th>
-    <th>What is its purpose?</th>
-  </tr>
-  <tr>
-    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices condimentum rhoncus. Etiam non fringilla massa, nec rutrum libero. Nullam imperdiet rhoncus magna, vitae elementum enim tempor sed. Cras sapien sem, ornare nec laoreet sed, vehicula at lectus. Nullam facilisis turpis non dolor ornare, commodo dapibus ex dictum. Aliquam ac velit vel magna viverra gravida. Curabitur lorem sem, semper eu nisl vitae, ultricies rhoncus nulla. Sed dignissim consectetur purus a porttitor. Mauris sit amet lacinia mauris, sed porta sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. </td>
-    <td>Vestibulum blandit, massa id commodo feugiat, tellus ligula efficitur eros, vitae pulvinar nibh mi non eros. Proin non finibus lectus, ut ornare velit. Nullam rutrum eleifend urna sit amet aliquam. Donec quis accumsan odio. Phasellus nunc velit, tristique convallis purus commodo, cursus accumsan diam. Aenean mauris nisl, pulvinar a orci in, viverra sodales dolor. Proin tempor pulvinar turpis, id semper lorem. Suspendisse ac lacus eget dui vestibulum finibus vel eget arcu. </td>
-  </tr>
-</table>
- 
-
-<!-- title for the organs section -->
-<p class="sec_headers">Parts of the Digestive System</p>
-
-<!-- Organ 1 -->
-  <!-- box for the img + text -->
-<section class="organ" id="mouth">
-  <img src="../images/digestive/mouth.jpg" width="30%" height="30%" alt="mouth">
-    <!-- box for the header or title + description -->
-  <div class="organ_body">
-    <h2>Mouth</h2>
-      <!-- box for the description -->
-    <div class="organ_description">
-      <p>Nulla non neque sed nibh aliquet consectetur venenatis sit amet lorem. Nullam sed vulputate ligula, eu consectetur libero. Donec sit amet justo justo. Etiam est velit, placerat a vulputate a, ultricies non risus. Duis rutrum eleifend arcu sed pellentesque. Quisque malesuada venenatis mauris ac tincidunt. Praesent sem felis, euismod sed dolor et, interdum pulvinar erat. Donec iaculis diam in egestas porta. Sed id dapibus sapien. Phasellus consequat ante eget lectus commodo, ut varius ligula luctus. Quisque non sagittis est. </p>
+  <!-- note: this template follows the wireframe in the github -->
+  <!-- header -->
+  <header id="header">
+    <a href="../index.html"><img class="headicon" src="../images/icons/icon.jpg" height="30px" width="30px"></a>
+    <div>
+      <a href="page1.html">Digestive</a>
+      <a href="page2.html">Respiratory</a>
+      <a href="page3.html">Circulatory</a>
+      <a href="page4.html">Nervous</a>
+      <a href="page5.html">Urinary</a>
     </div>
-  </div>
-</section>
+  </header>
 
-<!-- Organ 2 -->
-<section class="organ" id="esophagus">
-  <img src="../images/digestive/esophagus.jpg" width="30%" height="30%" alt="esophagus">
-  <div class="organ_body">
-    <h2>Esophagus</h2>
-    <div class="organ_description">
-      <p>Cras hendrerit quis ligula ut sodales. Vestibulum a velit faucibus, lacinia augue eget, varius nulla. Etiam sed risus risus. Fusce gravida, odio luctus consequat sodales, elit metus finibus nisi, vel egestas ligula ligula eget dui. Donec et erat ligula. Suspendisse sit amet est et dui lacinia pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-    </div>
-  </div>
-</section>
+  <main>
+    <!-- title for the intro -->
+    <p class="sec_headers">Digestive System</p>
 
-<!-- Organ 3 -->
-<section class="organ" id="stomach">
-  <img src="../images/digestive/stomach.jpg" width="30%" height="30%"  alt="stomach">
-  <div class="organ_body">
-    <h2>Stomach</h2>
-    <div class="organ_description">
-      <p>Sed viverra et leo eu consequat. Duis id urna vitae risus vulputate tincidunt in vel urna. Aliquam vitae ligula ut massa porta sollicitudin et eget mauris. Ut in blandit nulla. Donec fringilla vestibulum urna, vel iaculis sapien ornare et. Vestibulum varius mattis iaculis. Vivamus risus ipsum, laoreet in aliquet nec, sollicitudin elementum ipsum. Ut a dolor sagittis, fermentum purus in, cursus quam. Fusce euismod maximus mauris quis commodo. Maecenas accumsan nibh et elit tincidunt, nec sodales enim eleifend. Donec pretium magna vel nisi dapibus, gravida tempor erat feugiat. Integer ut est vitae elit dictum consequat et quis mi. Quisque in bibendum eros, quis dapibus erat. Quisque non magna rhoncus, suscipit mi sit amet, tincidunt odio. Nullam sodales, tortor id ullamcorper vestibulum, mauris nisi elementum massa, et ultricies lacus nisi a mi. </p>
-    </div>
-  </div>
-</section>
+    <nav>
+      <p>Organs</p>
+      <ul>
+        <li><a href="#mouth">Mouth</a></li>
+        <li><a href="#esophagus">Esophagus</a></li>
+        <li><a href="#stomach">Stomach</a></li>
+        <li><a href="#s_intestine">Small Intestine</a></li>
+        <li><a href="#l_intestine">Large Intestine</a></li>
+      </ul>
+    </nav>
 
-<!-- Organ 4 -->
-<section class="organ" id="s_intestine">
-  <img src="../images/digestive/small_intestine.jpg" width="30%" height="30%"  alt="small intestine">
-  <div class="organ_body">
-    <h2>Small Intestine</h2>
-    <div class="organ_description">
-      <p>Donec aliquam augue nisi, nec elementum nunc condimentum ac. Proin vestibulum, urna vel egestas posuere, lacus lacus vulputate libero, et posuere nunc mauris sit amet nibh. Pellentesque elit dui, mattis nec hendrerit sit amet, facilisis ut dolor. Vestibulum lacinia leo felis, sed semper tellus tristique ut. Vestibulum sit amet aliquam nisi, at condimentum elit. Quisque sollicitudin tellus id dapibus semper. Duis vitae dictum justo, eu ultricies arcu. In sed dictum enim. Suspendisse pellentesque lectus vel molestie rhoncus. Morbi mattis ex molestie nisi condimentum, vitae efficitur quam feugiat. Fusce nisl mi, auctor in aliquam in, lacinia et justo. </p>
-    </div>
-  </div>
-</section>
+    <img id="main_image" src="../images/digestive/digestiveoverview.jpg" alt="digestive_overview">
 
-<!-- Organ 5 -->
-<section class="organ" id="l_intestine">
-  <img src="../images/digestive/large_intestine.jpg" width="30%" height="30%"  alt="large intestine">
-  <div class="organ_body">
-    <h2>Large Intestine</h2>
-    <div class="organ_description">
-      <p>Cras sodales scelerisque rhoncus. Etiam et elit eget sem cursus venenatis id nec massa. Proin sapien sapien, consequat id dolor a, tempor elementum ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque mollis lorem non ultrices accumsan. Mauris molestie erat dolor, sed eleifend nisl rhoncus quis. Nunc egestas leo nibh, eget ultricies dolor aliquet vel. Morbi magna mauris, accumsan in feugiat pharetra, euismod at diam. </p>
-    </div>
-  </div>
-</section>
-  
-<section id="references">
-  <br>
-  <h1>References:</h1>
-    <p>- DRAFT</p>
-  <br>
-</section>
-  
-</main>
+    <!-- actual text for the intro -->
+    <table>
+      <tr>
+        <th>What is it?</th>
+        <th>What is its purpose?</th>
+      </tr>
+      <tr>
+        <td>The digestive system is a series of organs mainly located inside the abdominal cavity. It extends all the
+          way through the body from the head to the pelvis. The main organs consists of the mouth, esophagus, stomach,
+          and the intestines, but many more organs not here aid in the functions of the digestive system. These main organs  are also called the (GI) gastrointestinal track.</td>
+        <td>The digestive system's main use is for breaking down food, absorbing nutrients, and eliminating any waste
+          products. It does this by using its different organs with different uses. The mouth and stomach break down the
+          food, the esophagus and intestines serve as transport, with the intestines also for absorption.</td>
+      </tr>
+    </table>
 
-<footer>
-  <a href="#header">Jump to Top</a>
-  <p>CS3 Project B2026 | Magnesium | Matthew Sanchez, Gabriel Benedict Moresca | © All Rights Reserved</p>
-</footer>
-  <!-- this is such a footer moment -->
+
+    <!-- title for the organs section -->
+    <p class="sec_headers">Parts of the Digestive System</p>
+
+    <!-- Organ 1 -->
+    <!-- box for the img + text -->
+    <section class="organ" id="mouth">
+      <img src="../images/digestive/mouth.jpg" width="30%" height="30%" alt="mouth">
+      <!-- box for the header or title + description -->
+      <div class="organ_body">
+        <h2>Mouth</h2>
+        <!-- box for the description -->
+        <div class="organ_description">
+          <p>The digestive system starts at the mouth. The mouth is an area that includes the teeth, tongue, and
+            salivating glands. This is where mechanical and chemical digestion take place. The teeth break down the food
+            into smaller parts, and the saliva moistens and breaks down starches in your food into a form easier for
+            absorption. </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organ 2 -->
+    <section class="organ" id="esophagus">
+      <img src="../images/digestive/esophagus.jpg" width="30%" height="30%" alt="esophagus">
+      <div class="organ_body">
+        <h2>Esophagus</h2>
+        <div class="organ_description">
+          <p>The esophagus is a long muscluar tube or pipe that extends from the pharynx, past the respiratory system
+            and the chest cavity, to the stomach in the abdominal cavity. Its purpose is to carry food that you chew and
+            carry it to the stomach through a process called peristalsis, which consists of wave-like muscle
+            contractions in your esophagus to push food down. This motion helps the esophagus transport food to your
+            stomach even if your body is upside down. When the esophagus isn't transporting food, it is usually closed
+            up to prevent the contents of your stomach from going up.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- stock knowledge lets go -->
+
+    <!-- Organ 3 -->
+    <section class="organ" id="stomach">
+      <img src="../images/digestive/stomach.jpg" width="30%" height="30%" alt="stomach">
+      <div class="organ_body">
+        <h2>Stomach</h2>
+        <div class="organ_description">
+          <p>The stomach is the main digestive organ that breaks down food. It does this through chemical digestion
+            using gastric acid. This gastric acid is of course very acidic, so the stomach has something called the stomach lining to prevent this acid from bursting. At this point, the digested food is now called chyme, about to travel to the small intestine.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organ 4 -->
+    <section class="organ" id="s_intestine">
+      <img src="../images/digestive/s_intestine.jpg" width="30%" height="30%" alt="small intestine">
+      <div class="organ_body">
+        <h2>Small Intestine</h2>
+        <div class="organ_description">
+          <p>The small intestine is one of the two intestines, which is responsible for breaking down food and absorbing nutrients. Being the longest part of your digestive system, this is where most of the digestion ttakes place. It receives food from the stomach and after processing it for a long time, sends it to the large intestines. The small intestine is made up of 3 parts, the duodenum, jejunum, and ileum. The duodenum is the first part of the small intestines, and is a mainly descending "chute" that curves around the pancreas. The jejenum is the next part of the small intestines, it coils around and around in the lower part of your abdominal cavity, filling up less than half of this space. Finally the ileum, which is the longest and final part of your small intestines. The walls of your intestines start to thin here, as this is where the most of the water and nutrients of the food is absorbed.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organ 5 -->
+    <section class="organ" id="l_intestine">
+      <img src="../images/digestive/l_intestine.jpg" width="30%" height="30%" alt="large intestine">
+      <div class="organ_body">
+        <h2>Large Intestine</h2>
+        <div class="organ_description">
+          <p>The large intestine, also known as the colon, is the penultimate organ of the digestive system. It is wider than the small intestine, although it is also shorter. Its main function is to absorb water out of the food. After water has been sufficiently depleted, the large intestine transports the food to the anus to be excreted.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="references">
+      <br>
+      <h1>References:</h1>
+      <p>- Digestive System: Function, Organs & Anatomy. (n.d.). Cleveland Clinic.
+        https://my.clevelandclinic.org/health/body/7041-digestive-system</p>
+      <p>- Your Digestive System & How it Works. (2022, August 29). National Institute of Diabetes and Digestive and
+        Kidney Diseases. https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works
+      </p>
+      <br>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="#header">Jump to Top</a>
+    <p>CS3 Project B2026 | Magnesium | Matthew Sanchez, Gabriel Benedict Moresca | © All Rights Reserved</p>
+  </footer>
+  <!-- this is such a foot moment (feet) -->
 </body>
+
 </html>
